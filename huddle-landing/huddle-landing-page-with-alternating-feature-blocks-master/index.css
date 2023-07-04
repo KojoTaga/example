@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.body1{
+    height: 450px;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+
+nav{
+    width: auto;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-button{
+    display: flex;
+    border: 3px solid white;
+    align-items: center;
+    margin-right: 50px;
+    height: 5px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 60px;
+    background-color:white;
+    box-shadow: 2px 2px 2px 2px black;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+.get{
+    border: 3px solid white;
+    background-color:  hsl(322, 100%, 66%);
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+.all img{
+    width: 35rem;
+}
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.body2{
+    margin:50px 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+ /* border: 2px solid red; */
+ width: 80%;
+ display:flex;
+ align-items: center;
+ box-shadow: 1px 2px 4px 2px rgb(193, 187, 187);
+margin: auto;
+padding: 50px;
+gap: 70px;
+
+}
+
+.box2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+    align-items: center;
+    margin: auto auto auto auto;
+    text-align: center;
+    box-shadow: 1px 2px 4px 2px rgb(193, 187, 187);
+    position: relative;
+    top: 40px;
+    background-color: white;
+}
+
+.lorem{
+    background-image: linear-gradient(rgb(5, 3, 44), rgb(4, 4, 48), rgb(6, 3, 61));
+    padding-top: 7em;
+    color: white;
+    display: flex;
+    gap: 5em;
+
+    
+}
+
+.lorem p h1{
+    padding-top: 100px;
+    
+
+    
+    
+}
+
+
+.huddle{
+    width: 35%;
+    margin-left: 7.5em;
+}
+
+
+.container2{
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 200px 40px 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+
+    
+}
+
+.button2{
+    background-color:  hsl(322, 100%, 66%);
+    padding: 15px 70px;
+    width: fit-content;
+    border-radius: 30px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+    color: white;
+
+}
+
+
+.location{
+    display: flex;
+    padding-right: 200px;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+
+
+.write{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+   
+    
+}
+
+
+
+.type{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5em;
+
+
+}
+
+.icons{
+    display: flex;
+    padding-top: 5em;
+    padding-right: rem;
+    
+}
+
+
+.write h5{
+   padding-bottom: 20px;
+}
+
+
+.type h5{
+    padding-bottom: 20px;
+ }
+
+
+footer{
+   text-align: end;
+   font-size: 1.5em;
+   padding-top: 2em;
+   padding-bottom: 2.5em;
+    background-image: linear-gradient(rgb(6, 3, 62), rgb(3, 3, 66), rgb(6, 3, 61));
+}
+
+footer h6{
+    color: white;
+}
+
+
+
+.copy{
+    display: flex;
+}
+
+
